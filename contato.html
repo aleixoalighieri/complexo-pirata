@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Complexo Pirata Burguer</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+    <div class="header-container">
+        <h1>Complexo Pirata Burguer</h1>
+        <img src="imagens/uniube-logo.png" alt="Logotipo Uniube" class="logo-direita">
+    </div>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="links.html">Links</a></li>
+            <li><a href="fotos.html">Fotos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="historia.html">História</a></li>
+            <li><a href="cardapio.html">Cardápio</a></li>
+            <li><a href="tripulacao.html">Tripulação</a></li>
+            <li><a href="promocoes.html">Promoções</a></li>
+            <li><a href="localizacao.html">Localização</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <main>
+        <h2>Envie sua Mensagem</h2>
+        <p>Preencha o formulário abaixo para entrar em contato com o nosso bando:</p>
+
+        <form action="#" method="post">
+            <label for="nome">Nome do Marujo:</label><br>
+            <input type="text" id="nome" name="nome" required style="width: 100%; padding: 10px; margin: 10px 0;"><br>
+
+            <label for="email">E-mail para Resposta:</label><br>
+            <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; margin: 10px 0;"><br>
+
+            <label for="assunto">Assunto:</label><br>
+            <select id="assunto" name="assunto" style="width: 100%; padding: 10px; margin: 10px 0;">
+                <option value="duvida">Dúvida</option>
+                <option value="elogio">Elogio</option>
+                <option value="reclamacao">Reclamação</option>
+                <option value="outros">Outros</option>
+            </select><br>
+
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="5" required style="width: 100%; padding: 10px; margin: 10px 0;"></textarea><br>
+
+            <button type="submit" style="background-color: #d32f2f; color: white; padding: 10px 20px; border: none; cursor: pointer; font-weight: bold;">Enviar Mensagem</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por: João Pedro de Oliveira Aleixo Silva | RA: 5172087</p>
+    </footer>
+</body>
+</html>
